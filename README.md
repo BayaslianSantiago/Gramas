@@ -57,10 +57,14 @@ python analisis_ngrams.py
 El script imprimirá el progreso en la consola y, al finalizar, mostrará un gráfico de barras interactivo con la comparación de los n-gramas más frecuentes.
 
 📂 Estructura del Proyecto
-.
+
 ├── CorpusEducacion.txt    # Archivo de texto con el corpus de opiniones
+
 └── analisis_ngrams.py     # Script Python para el análisis de n-gramas
+
 ├── README.md              # Este archivo
+
+
 📝 Consideraciones sobre la Lematización
 La lematización en español es un desafío. Para este proyecto, la función lematizar_tokens implementa una lematización básica basada en heurísticas simples para el idioma español (por ejemplo, removiendo 's' para plurales o transformando 'a' final a 'o').
 
